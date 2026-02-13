@@ -22,7 +22,3 @@ Open **http://localhost:5173**
    - If you use 127.0.0.1, also add: `http://127.0.0.1:5173/auth/callback`
    - Ensure GOOGLE_REDIRECT_URI in .dev.vars matches (e.g. `http://localhost:5173/auth/callback`)
 4. **Stripe** (for payments): Add STRIPE_SECRET_KEY to `.dev.vars`
-
-### Google OAuth Error 400?
-
-See **SETUP_GOOGLE_OAUTH.md** for step-by-step fix. Or visit `http://localhost:5173/api/oauth/google/redirect_uri_debug` to see the exact redirect URI to add in Google Console.
